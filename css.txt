@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label>
+            email:<input type="email" name="email" />
+        </label>
+        <label>
+            URL:<input type="url" name="url" />
+        </label>
+        <label>
+            number:
+            <input type="number" name="number" step="5" max="10" min="-15" />
+        </label>
+        <label>
+            tel:
+            <input type="tel" name="tel" pattern="^1314520" />
+        </label>
+        <label>
+            range:
+            <input type="range" name="range" value="100" min="0" max="500" step="20" />
+        </label>
+        <label>
+            color:
+            <input type="color" name="color" />
+        </label>
+        <label>
+            time:
+            <input type="time" name="time" />
+        </label>
+        <label>
+            date:
+            <input type="date" name="date" />
+        </label>
+        <input type="submit">
+    </form>
+</body>
+</html>
